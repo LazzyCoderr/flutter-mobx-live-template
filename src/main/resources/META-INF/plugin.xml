@@ -1,0 +1,12 @@
+<idea-plugin>
+    <id>com.lazzycoderr.flutter-mobx-live-template</id>
+    <name>Flutter-Mobx-Live-Template</name>
+    <vendor email="kantariyafenil143@gmail.com">LazzyCoderr</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <defaultLiveTemplates file="live_template/flutter_mobx_template.xml"/>
+        <liveTemplateContext implementation="com.lazzycoderr.fluttermobxlivetemplate.FlutterMobx" />
+    </extensions>
+</idea-plugin>
