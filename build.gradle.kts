@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.lazzycoderr"
-version = "1.0-SNAPSHOT"
+version = "1.1"
 
 repositories {
     mavenCentral()
@@ -42,6 +42,7 @@ tasks {
     }
 
     publishPlugin {
+        dependsOn("patchChangelog")
         token.set(System.getenv("PUBLISH_TOKEN"))
     }
 }

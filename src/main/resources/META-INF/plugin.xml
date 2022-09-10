@@ -3,10 +3,119 @@
     <name>Flutter-Mobx-Live-Template</name>
     <vendor email="kantariyafenil143@gmail.com">LazzyCoderr</vendor>
 
+    <description><![CDATA[
+        <h2>Flutter Mobx live templates.</h2>
+        <br/>
+        <em>Flutter Mobx live templates is a way to use Mobx state management very quickly. This plugin contains different
+        snippets for create Mobx Store class, Observables and action with built-in type and also with custom data type.
+        </em>
+        <br/>
+        <h3>Live Templates</h3>
+        <br/>
+        <table style="border: 1px solid white; border-collapse: collapse;">
+            <tr>
+                <th style="border: 1px solid white; border-collapse: collapse;">Shortcut</th>
+                <th style="border: 1px solid white; border-collapse: collapse;">Description</th>
+            </tr>
+            <tr>
+                <td style="border: 1px solid white; border-collapse: collapse;">mobxStore</td>
+                <td style="border: 1px solid white; border-collapse: collapse;">New mobx store class</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid white; border-collapse: collapse;">stringObservable</td>
+                <td style="border: 1px solid white; border-collapse: collapse;">Create Observable with String</td>
+            </tr>
+            <tr>
+                 <td style="border: 1px solid white; border-collapse: collapse;">intObservable</td>
+                 <td style="border: 1px solid white; border-collapse: collapse;">Create Observable with int</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid white; border-collapse: collapse;">doubleObservable</td>
+                <td style="border: 1px solid white; border-collapse: collapse;">Create Observable with double</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid white; border-collapse: collapse;">boolObservable</td>
+                <td style="border: 1px solid white; border-collapse: collapse;">Create Observable with Boolean</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid white; border-collapse: collapse;">customTypeObservable</td>
+                <td style="border: 1px solid white; border-collapse: collapse;">Create Observable with user define type</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid white; border-collapse: collapse;">voidAction</td>
+                <td style="border: 1px solid white; border-collapse: collapse;">Create action with void return type</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid white; border-collapse: collapse;">stringAction</td>
+                <td style="border: 1px solid white; border-collapse: collapse;">Create action with String return type</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid white; border-collapse: collapse;">intAction</td>
+                <td style="border: 1px solid white; border-collapse: collapse;">Create action with Integer return type</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid white; border-collapse: collapse;">doubleAction</td>
+                <td style="border: 1px solid white; border-collapse: collapse;">Create action with Double return type</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid white; border-collapse: collapse;">boolAction</td>
+                <td style="border: 1px solid white; border-collapse: collapse;">Create action with Boolean return type</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid white; border-collapse: collapse;">customTypeAction</td>
+                <td style="border: 1px solid white; border-collapse: collapse;">Create action with user define return type</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid white; border-collapse: collapse;">futureVoidAction</td>
+                <td style="border: 1px solid white; border-collapse: collapse;">Create Future action with Void return type</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid white; border-collapse: collapse;">futureStringAction</td>
+                <td style="border: 1px solid white; border-collapse: collapse;">Create Future action with String return type</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid white; border-collapse: collapse;">futureIntAction</td>
+                <td style="border: 1px solid white; border-collapse: collapse;">Create Future action with Integer return type</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid white; border-collapse: collapse;">futureDoubleAction</td>
+                <td style="border: 1px solid white; border-collapse: collapse;">Create Future action with Double return type</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid white; border-collapse: collapse;">futureBooleanAction</td>
+                <td style="border: 1px solid white; border-collapse: collapse;">Create Future action with Boolean return type</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid white; border-collapse: collapse;">futureCustomTypeAction</td>
+                <td style="border: 1px solid white; border-collapse: collapse;">Create Future action with user define return type</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid white; border-collapse: collapse;">storeObservableList</td>
+                <td style="border: 1px solid white; border-collapse: collapse;">Create Observable list with preferred data type</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid white; border-collapse: collapse;">storeObservableSet</td>
+                <td style="border: 1px solid white; border-collapse: collapse;">Create Observable set with preferred data type</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid white; border-collapse: collapse;">storeObservableMap</td>
+                <td style="border: 1px solid white; border-collapse: collapse;">Create Observable map with preferred datatype</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid white; border-collapse: collapse;">storeObservableFuture</td>
+                <td style="border: 1px solid white; border-collapse: collapse;">Create Observable future with preferred data type</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid white; border-collapse: collapse;">storeObservableStream</td>
+                <td style="border: 1px solid white; border-collapse: collapse;">Create Observable stream with preferred data type</td>
+            </tr>
+        </table>
+    ]]></description>
+
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
         <defaultLiveTemplates file="live_template/flutter_mobx_template.xml"/>
-        <liveTemplateContext implementation="com.lazzycoderr.fluttermobxlivetemplate.FlutterMobx" />
+        <liveTemplateContext implementation="com.lazzycoderr.fluttermobxlivetemplate.FlutterMobx"/>
     </extensions>
 </idea-plugin>

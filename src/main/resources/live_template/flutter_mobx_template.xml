@@ -7,93 +7,167 @@
             <option name="DART_STATEMENT" value="true"/>
         </context>
     </template>
-    <template name="stringObservable" value=" @observable&#10;String $VARNAME$ = '';" description="Create Observable with String type" toReformat="true" toShortenFQNames="true">
+    <template name="stringObservable" value="@observable&#10;String $VARNAME$ = '';" description="Create Observable with String type" toReformat="true" toShortenFQNames="true">
         <variable name="VARNAME" expression="" defaultValue="" alwaysStopAt="true"/>
         <context>
             <option name="DART_TOPLEVEL" value="true"/>
         </context>
     </template>
-    <template name="intObservable" value=" @observable&#10;int $VARNAME$ = 0;" description="Create Observable with int type" toReformat="true" toShortenFQNames="true">
+    <template name="intObservable" value="@observable&#10;int $VARNAME$ = 0;" description="Create Observable with int type" toReformat="true" toShortenFQNames="true">
         <variable name="VARNAME" expression="" defaultValue="" alwaysStopAt="true"/>
         <context>
             <option name="DART_TOPLEVEL" value="true"/>
         </context>
     </template>
-    <template name="doubleObservable" value=" @observable&#10;double $VARNAME$ = 0.0;" description="Create Observable with double type" toReformat="true" toShortenFQNames="true">
+    <template name="doubleObservable" value="@observable&#10;double $VARNAME$ = 0.0;" description="Create Observable with double type" toReformat="true" toShortenFQNames="true">
         <variable name="VARNAME" expression="" defaultValue="" alwaysStopAt="true"/>
         <context>
             <option name="DART_TOPLEVEL" value="true"/>
         </context>
     </template>
-    <template name="booleanObservable" value=" @observable&#10;bool? $VARNAME$ = false;" description="Create Observable with boolean type" toReformat="true" toShortenFQNames="true">
+    <template name="booleanObservable" value="@observable&#10;bool? $VARNAME$ = false;" description="Create Observable with boolean type" toReformat="true" toShortenFQNames="true">
         <variable name="VARNAME" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="DART_TOPLEVEL" value="true"/>
+        </context>
+    </template>
+    <template name="customTypeObservable" value="@observable&#10; $TYPE$ $VARNAME$ = $TYPE$();" description="Create Observable with user define type" toReformat="true" toShortenFQNames="true">
+        <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true"/>
         <context>
             <option name="DART_TOPLEVEL" value="true"/>
         </context>
     </template>
 
-    <template name="voidAction" value=" @action&#10;void $METHODNAME$(){&#10; return '';&#10;}" description="Create action with String return type" toReformat="true" toShortenFQNames="true">
+    <template name="voidAction" value="@action&#10;void $METHODNAME$(){&#10; return '';&#10;}" description="Create action with String return type" toReformat="true" toShortenFQNames="true">
         <variable name="METHODNAME" expression="" defaultValue="" alwaysStopAt="true"/>
         <context>
             <option name="DART_TOPLEVEL" value="true"/>
         </context>
     </template>
-    <template name="stringAction" value=" @action&#10;String $METHODNAME$(){&#10; return '';&#10;}" description="Create action with String return type" toReformat="true" toShortenFQNames="true">
+    <template name="stringAction" value="@action&#10;String $METHODNAME$(){&#10; return '';&#10;}" description="Create action with String return type" toReformat="true" toShortenFQNames="true">
         <variable name="METHODNAME" expression="" defaultValue="" alwaysStopAt="true"/>
         <context>
             <option name="DART_TOPLEVEL" value="true"/>
         </context>
     </template>
-    <template name="intAction" value=" @action&#10;int $METHODNAME$(){&#10; return 0;&#10;}" description="Create action with int return type" toReformat="true" toShortenFQNames="true">
+    <template name="intAction" value="@action&#10;int $METHODNAME$(){&#10; return 0;&#10;}" description="Create action with int return type" toReformat="true" toShortenFQNames="true">
         <variable name="METHODNAME" expression="" defaultValue="" alwaysStopAt="true"/>
         <context>
             <option name="DART_TOPLEVEL" value="true"/>
         </context>
     </template>
-    <template name="doubleAction" value=" @action&#10;double $METHODNAME$(){&#10; return 0.0;&#10;}" description="Create action with double return type" toReformat="true" toShortenFQNames="true">
+    <template name="doubleAction" value="@action&#10;double $METHODNAME$(){&#10; return 0.0;&#10;}" description="Create action with double return type" toReformat="true" toShortenFQNames="true">
         <variable name="METHODNAME" expression="" defaultValue="" alwaysStopAt="true"/>
         <context>
             <option name="DART_TOPLEVEL" value="true"/>
         </context>
     </template>
-    <template name="booleanAction" value=" @action&#10;bool $METHODNAME$(){&#10; return false;&#10;}" description="Create action with Boolean return type" toReformat="true" toShortenFQNames="true">
+    <template name="booleanAction" value="@action&#10;bool $METHODNAME$(){&#10; return false;&#10;}" description="Create action with Boolean return type" toReformat="true" toShortenFQNames="true">
+        <variable name="METHODNAME" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="DART_TOPLEVEL" value="true"/>
+        </context>
+    </template>
+    <template name="customTypeAction" value="@action&#10;$TYPE$ $METHODNAME$(){&#10; return $TYPE$();&#10;}" description="Create action with user define return type" toReformat="true"
+              toShortenFQNames="true">
+        <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true"/>
         <variable name="METHODNAME" expression="" defaultValue="" alwaysStopAt="true"/>
         <context>
             <option name="DART_TOPLEVEL" value="true"/>
         </context>
     </template>
 
-    <template name="futureVoidAction" value=" @action&#10;Future<void> $METHODNAME$() async{&#10; return '';&#10;}" description="Create future action with void return type" toReformat="true"
+    <template name="futureVoidAction" value=" @action&#10;Future&lt;void&gt; $METHODNAME$() async{&#10; return '';&#10;}" description="Create future action with void return type" toReformat="true"
               toShortenFQNames="true">
         <variable name="METHODNAME" expression="" defaultValue="" alwaysStopAt="true"/>
         <context>
             <option name="DART_TOPLEVEL" value="true"/>
         </context>
     </template>
-    <template name="futureStringAction" value=" @action&#10;Future<String> $METHODNAME$() async{&#10; return '';&#10;}" description="Create future action with String return type" toReformat="true"
+    <template name="futureStringAction" value=" @action&#10;Future&lt;String&gt; $METHODNAME$() async{&#10; return '';&#10;}" description="Create future action with String return type"
+              toReformat="true"
               toShortenFQNames="true">
         <variable name="METHODNAME" expression="" defaultValue="" alwaysStopAt="true"/>
         <context>
             <option name="DART_TOPLEVEL" value="true"/>
         </context>
     </template>
-    <template name="futureIntAction" value=" @action&#10;Future<int> $METHODNAME$() async{&#10; return 0;&#10;}" description="Create future action with int return type" toReformat="true"
+    <template name="futureIntAction" value=" @action&#10;Future&lt;int&gt; $METHODNAME$() async{&#10; return 0;&#10;}" description="Create future action with int return type" toReformat="true"
               toShortenFQNames="true">
         <variable name="METHODNAME" expression="" defaultValue="" alwaysStopAt="true"/>
         <context>
             <option name="DART_TOPLEVEL" value="true"/>
         </context>
     </template>
-    <template name="FutureDoubleAction" value=" @action&#10;Future<double> $METHODNAME$() async{&#10; return 0.0;&#10;}" description="Create future action with double return type" toReformat="true"
+    <template name="FutureDoubleAction" value=" @action&#10;Future&lt;double&gt; $METHODNAME$() async{&#10; return 0.0;&#10;}" description="Create future action with double return type"
+              toReformat="true"
               toShortenFQNames="true">
         <variable name="METHODNAME" expression="" defaultValue="" alwaysStopAt="true"/>
         <context>
             <option name="DART_TOPLEVEL" value="true"/>
         </context>
     </template>
-    <template name="futureBooleanAction" value=" @action&#10;Future<bool> $METHODNAME$() async{&#10; return false;&#10;}" description="Create action with Boolean return type" toReformat="true"
+    <template name="futureBooleanAction" value=" @action&#10;Future&lt;bool&gt; $METHODNAME$() async{&#10; return false;&#10;}" description="Create action with Boolean return type" toReformat="true"
               toShortenFQNames="true">
         <variable name="METHODNAME" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="DART_TOPLEVEL" value="true"/>
+        </context>
+    </template>
+    <template name="futureCustomTypeAction" value=" @action&#10;Future&lt;$TYPE$&gt; $METHODNAME$() async{&#10; return $TYPE$;&#10;}" description="Create action with user define return type"
+              toReformat="true"
+              toShortenFQNames="true">
+        <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="METHODNAME" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="DART_TOPLEVEL" value="true"/>
+        </context>
+    </template>
+
+    <template name="storeObservableList" value="ObservableList&lt;$TYPE$&gt; $VARNAME$ = ObservableList&lt;$TYPE$&gt;.of([]);" description="Create Observable list with preferred data type"
+              toReformat="true"
+              toShortenFQNames="true">
+        <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="VARNAME" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="DART_TOPLEVEL" value="true"/>
+        </context>
+    </template>
+    <template name="storeObservableSet" value="ObservableSet&lt;$TYPE$&gt; $VARNAME$ = ObservableSet&lt;$TYPE$&gt;.of([]);" description="Create Observable set with preferred data type"
+              toReformat="true"
+              toShortenFQNames="true">
+        <variable name="$TYPE$" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="VARNAME" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="DART_TOPLEVEL" value="true"/>
+        </context>
+    </template>
+    <template name="storeObservableMap" value="ObservableMap&lt;$TYPE1$,$TYPE2$&gt; $VARNAME$ = ObservableMap&lt;$TYPE1$,$TYPE2$&gt;.of({});"
+              description="Create Observable map with preferred datatype"
+              toReformat="true"
+              toShortenFQNames="true">
+        <variable name="TYPE1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="TYPE2" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="VARNAME" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="DART_TOPLEVEL" value="true"/>
+        </context>
+    </template>
+    <template name="storeObservableFuture" value="static ObservableFuture&lt;$TYPE$&gt; $VARNAME$ = ObservableFuture.value();" description="Create Observable future with preferred data type"
+              toReformat="true"
+              toShortenFQNames="true">
+        <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="VARNAME" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="DART_TOPLEVEL" value="true"/>
+        </context>
+    </template>
+    <template name="storeObservableStream" value="static ObservableStream&lt;$TYPE$&gt; $VARNAME$ = $STREAM$.asObservable();" description="Create Observable stream with preferred data type"
+              toReformat="true"
+              toShortenFQNames="true">
+        <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="STREAM" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="VARNAME" expression="" defaultValue="" alwaysStopAt="true"/>
         <context>
             <option name="DART_TOPLEVEL" value="true"/>
         </context>

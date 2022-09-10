@@ -1,4 +1,4 @@
-# Flutter Riverpod live templates
+# Flutter Mobx live templates
 
 [Flutter Mobx](https://github.com/mobxjs/mobx.dart) live templates is a way to use Mobx state management very quickly. It contains a collection of different
 snippets such as `Observable` or `action`.
@@ -7,12 +7,12 @@ snippets such as `Observable` or `action`.
 
 - Using IDE built-in plugin system:
 
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "flutter riverpod snippets"</kbd> >
+  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "flutter mobx live tamplate"</kbd> >
   <kbd>Install Plugin</kbd>
 
 - Manually:
 
-  Download the [latest release](https://github.com/tbm98/flutter-mobx-live-templates/releases/latest) and install it manually using
+  Download the [latest release](https://github.com/LazzyCoderr/flutter-mobx-live-template/releases/latest) and install it manually using
   <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
 
 ## Requirements
