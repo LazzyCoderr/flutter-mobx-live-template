@@ -18,6 +18,10 @@
                 <th style="border: 1px solid white; border-collapse: collapse;">Description</th>
             </tr>
             <tr>
+                <td style="border: 1px solid white; border-collapse: collapse;">observer</td>
+                <td style="border: 1px solid white; border-collapse: collapse;">New Observer widget block</td>
+            </tr>
+            <tr>
                 <td style="border: 1px solid white; border-collapse: collapse;">mobxStore</td>
                 <td style="border: 1px solid white; border-collapse: collapse;">New mobx store class</td>
             </tr>
