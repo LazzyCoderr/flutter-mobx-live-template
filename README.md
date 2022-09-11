@@ -43,11 +43,11 @@
 | futureDoubleAction | Create Future action with Double return type |
 | futureBooleanAction | Create Future action with Boolean return type |
 | futureCustomTypeAction | Create Future action with user define return type |
-| storeObservableList |	Create Observable list with preferred data type
-| storeObservableSet |	Create Observable set with preferred data type
-| storeObservableMap |	Create Observable map with preferred datatype
-| storeObservableFuture |	Create Observable future with preferred data type
-| storeObservableStream |	Create Observable stream with preferred data type
+| storeObservableList |	Create Observable list with preferred data type |
+| storeObservableSet |	Create Observable set with preferred data type |
+| storeObservableMap |	Create Observable map with preferred datatype |
+| storeObservableFuture |	Create Observable future with preferred data type |
+| storeObservableStream |	Create Observable stream with preferred data type |
 
 
 ### Made with :blue_heart: by LazzyCoderr:sleeping:
