@@ -1,14 +1,12 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.lazzycoderr.flutter-mobx-live-template</id>
     <name>Flutter Mobx Live Template</name>
     <vendor email="kantariyafenil143@gmail.com">LazzyCoderr</vendor>
 
     <description><![CDATA[
-        <h2>Flutter Mobx live templates.</h2>
-        <br/>
         <em>Flutter Mobx live templates is a way to use Mobx state management very quickly. This plugin contains different
-        snippets for create Mobx Store class, Observables and action with built-in type and also with custom data type.
-        </em>
+        snippets for create Mobx Store class, Observables and action with built-in type and also with custom data type.</em>
         <br/>
         <h3>Live Templates</h3>
         <br/>
