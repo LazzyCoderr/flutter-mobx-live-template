@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.lazzycoderr"
-version = "1.2"
+version = "1.0"
 
 repositories {
     mavenCentral()
@@ -31,7 +31,7 @@ tasks {
     }
 
     patchPluginXml {
-        sinceBuild.set("213")
+        sinceBuild.set("203")
         untilBuild.set("223.*")
     }
 

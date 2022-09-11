@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>com.lazzycoderr.flutter-mobx-live-template</id>
-    <name>Flutter-Mobx-Live-Template</name>
+    <name>Flutter Mobx Live Template</name>
     <vendor email="kantariyafenil143@gmail.com">LazzyCoderr</vendor>
 
     <description><![CDATA[
@@ -18,7 +18,7 @@
                 <th style="border: 1px solid white; border-collapse: collapse;">Description</th>
             </tr>
             <tr>
-                <td style="border: 1px solid white; border-collapse: collapse;">observer</td>
+                <td style="border: 1px solid white; border-collapse: collapse;">obs</td>
                 <td style="border: 1px solid white; border-collapse: collapse;">New Observer widget block</td>
             </tr>
             <tr>

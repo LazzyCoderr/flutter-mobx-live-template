@@ -22,32 +22,32 @@
 
 ## Live Templates
 
-| Shortcut   |      Description      |
-|----------|:-------------|
-| observer | New mobx store class |
-| mobxStore | New Observer widget block |
-| stringObservable | Create Observable with String |
-| intObservable | Create Observable with int |
-| doubleObservable | Create Observable with double |
-| boolObservable | Create Observable with Boolean |
-| customTypeObservable | Create Observable with user define type |
-| voidAction | Create action with void return type |
-| stringAction | Create action with String return type |
-| intAction | Create action with Integer return type |
-| doubleAction | Create action with Double return type |
-| boolAction | Create action with Boolean return type |
-| customTypeAction | Create Observable with user define |
-| futureVoidAction | Create Future action with Void return type |
-| futureStringAction | Create Future action with String return type |
-| futureIntAction | Create Future action with Integer return type |
-| futureDoubleAction | Create Future action with Double return type |
-| futureBooleanAction | Create Future action with Boolean return type |
+| Shortcut               |      Description      |
+|------------------------|:-------------|
+| obs                    | New mobx store class |
+| mobxStore              | New Observer widget block |
+| stringObservable       | Create Observable with String |
+| intObservable          | Create Observable with int |
+| doubleObservable       | Create Observable with double |
+| boolObservable         | Create Observable with Boolean |
+| customTypeObservable   | Create Observable with user define type |
+| voidAction             | Create action with void return type |
+| stringAction           | Create action with String return type |
+| intAction              | Create action with Integer return type |
+| doubleAction           | Create action with Double return type |
+| boolAction             | Create action with Boolean return type |
+| customTypeAction       | Create Observable with user define |
+| futureVoidAction       | Create Future action with Void return type |
+| futureStringAction     | Create Future action with String return type |
+| futureIntAction        | Create Future action with Integer return type |
+| futureDoubleAction     | Create Future action with Double return type |
+| futureBooleanAction    | Create Future action with Boolean return type |
 | futureCustomTypeAction | Create Future action with user define return type |
-| storeObservableList |	Create Observable list with preferred data type |
-| storeObservableSet |	Create Observable set with preferred data type |
-| storeObservableMap |	Create Observable map with preferred datatype |
-| storeObservableFuture |	Create Observable future with preferred data type |
-| storeObservableStream |	Create Observable stream with preferred data type |
+| storeObservableList    |	Create Observable list with preferred data type |
+| storeObservableSet     |	Create Observable set with preferred data type |
+| storeObservableMap     |	Create Observable map with preferred datatype |
+| storeObservableFuture  |	Create Observable future with preferred data type |
+| storeObservableStream  |	Create Observable stream with preferred data type |
 
 
 ### Made with :blue_heart: by LazzyCoderr:sleeping:
