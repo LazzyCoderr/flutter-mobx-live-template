@@ -24,8 +24,8 @@
 
 | Shortcut               |      Description      |
 |------------------------|:-------------|
-| obs                    | New mobx store class |
-| mobxStore              | New Observer widget block |
+| obs                    | New Observer widget block |
+| mobxStore              | New mobx store class |
 | stringObservable       | Create Observable with String |
 | intObservable          | Create Observable with int |
 | doubleObservable       | Create Observable with double |
